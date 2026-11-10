@@ -1,0 +1,12 @@
+{
+  "name": "e-coleta-design-system",
+  "private": true,
+  "type": "module",
+  "scripts": {"storybook": "storybook dev -p 6006", "build-storybook": "storybook build -o dist --disable-telemetry"},
+  "devDependencies": {
+    "storybook": "10.3.6",
+    "@storybook/html-vite": "10.3.6",
+    "@storybook/addon-docs": "10.3.6",
+    "vite": "^7.3.1"
+  }
+}
